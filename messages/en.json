@@ -1,0 +1,164 @@
+{
+    
+        "nav": {
+          "home": "Home",
+          "about": "About Me",
+          "services": "Services",
+          "why": "Why Clients Trust My Practice",
+          "testimonials": "Testimonials",
+          "contact": "Contact me",
+          "language": "Language",
+          "advice": "Request Advice",
+          "spanish": "Spanish",
+          "english": "English"
+        
+      },
+      
+    "LawyerSection":{
+        "name": "Carlos Alberto Rodríguez Gutiérrez",
+        "title": "Criminal Defense Attorney | Legal Advisor",
+        "quote": "Strategic defense, ethical counsel, and a commitment to justice.",
+        "description": "With over 25 years of experience serving justice and defending citizens' rights, I provide legal representation and advice in criminal, civil, labor, administrative, and corporate matters, supported by a high-level interdisciplinary team.",
+        "cta": "Schedule your consultation today."
+    },
+    "AboutSection":{
+
+        "title": "About Me",
+         "backgroundAlt": "Background of the About Me section",
+        "imageAlt": "Carlos Alberto Rodríguez in his office",
+        "paragraph1": "I am an attorney with over two decades of experience in the practice of Colombian Criminal Law. My approach combines professional ethics, technical expertise, and a legal strategy tailored to each individual case.",
+        "paragraph2": "I work alongside a multidisciplinary team of attorneys and forensic experts in various fields, which allows me to offer reliable, and high-level legal solutions to both individuals and corporate clients."
+    },
+    "ServicesSection":{
+        "title": "Services",
+        "subtitle": "Areas of legal practice",
+        "cta": "Request a consultation",
+        "criminal": {
+          "title": "Criminal Law",
+          "item1": "Technical and strategic defense in criminal proceedings",
+          "item2": "Representation in public hearings and all procedural stages",
+          "item3": "Participation as a private prosecutor in accordance with Colombian Criminal Procedure Law"
+        },
+        "investigation": {
+          "title": "Private Investigation and Forensics Analysis",
+          "item1": "Specialized private investigation in criminal and corporate matters",
+          "item2": "Coordination with forensic experts (IT, accounting, psychology, ballistics, graphology)",
+          "item3": "Technical and evidentiary analysis aimed at strengthening the defense or prosecution"
+        },
+        "assetForfeiture": {
+          "title": "Asset Forfeiture",
+          "item1": "Legal advice and representation in asset forfeiture proceedings",
+          "item2": "Defense of assets affected by precautionary measures or court decisions",
+          "item3": "Asset analysis and procedural strategy for asset recovery"
+        },
+        "corporate": {
+          "title": "Corporate and Commercial Legal Advisory",
+          "item1": "Company formation, reorganization, and formalization",
+          "item2": "Drafting, reviewing, and negotiating contracts",
+          "item3": "Preventive legal risk management and regulatory compliance"
+        },
+        "ip": {
+          "title": "Intellectual Property",
+          "item1": "Trademark, patent, and copyright registration",
+          "item2": "Legal advisory for the protection of intangible assets and creative development"
+        },
+        "labor": {
+          "title": "Labor Law",
+          "item1": "Comprehensive advice on hiring, termination, and labor dispute resolution",
+          "item2": "Representation before the Ministry of Labor and in labor court proceedings"
+        },
+        "civil": {
+          "title": "Civil and Administrative Law",
+          "item1": "Representation in contractual and non-contractual liability claims",
+          "item2": "Lawsuits against the State for administrative actions or omissions",
+          "item3": "Constitutional actions (tutelas) and defense of fundamental rights"
+        }
+      },
+      "WhyChooseMeSection":{
+        "title": "Why Clients Trust My Practice",
+        "backgroundAlt": "Why Choose Me Background",
+        "card1": {
+          "title": "Experience",
+          "description": "Over 25 years of experience in litigation and legal advisory services"
+        },
+        "card2": {
+          "title": "Interdisciplinary Team",
+          "description": "Collaboration with specialists and forensic experts across multiple fields"
+        },
+        "card3": {
+          "title": "Personalized Attention",
+          "description": "Strategies tailored to the specific needs of each client"
+        },
+        "card4": {
+          "title": "Core Values",
+          "description": "Ethics, commitment, and results in every case I handle"
+        }
+      },
+
+      "TestimonialsSection":{
+      "title": "Testimonials",
+      "testimony1": {
+        "quote": "Dr. Rodríguez handled my case with professionalism and compassion. Thanks to his work, we achieved justice.",
+        "initials": "LM",
+        "name": "Laura M.",
+        "role": "Criminal client"
+      },
+      "testimony2": {
+        "quote": "An excellent lawyer—dedicated and highly knowledgeable. I recommend him without hesitation.",
+        "initials": "CT",
+        "name": "Carlos T.",
+        "role": "Corporate client"
+      }
+    },
+    "ContactSection":{
+        "title": "Contact Me",
+        "backgroundAlt": "Contact background",
+        "emailTitle": "Email",
+        "locationTitle": "Location",
+        "formTitle": "Quick Contact Form",
+        "fields": {
+          "name": "Name",
+          "phone": "Phone",
+          "email": "Email",
+          "subject": "Subject",
+          "message": "Message"
+        },
+        "placeholders": {
+          "name": "Your name",
+          "phone": "Your phone",
+          "email": "Your email address",
+          "subject": "Subject of your inquiry",
+          "message": "Briefly describe your case"
+        },
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully!",
+        "error": {
+          "general": "Failed to send message.",
+          "exception": "An error occurred while sending the message."
+        }
+      },
+      
+        "Footer": {
+          "profession": "Criminal Lawyer | Comprehensive Legal Advisor",
+          "motto": "\"Strategic defense, ethical advice, and commitment to justice.\"",
+          "quickLinks": "Quick Links",
+          "home": "Home",
+          "aboutMe": "About Me",
+          "services": "Services",
+          "whyChooseMe": "Why Choose Me?",
+          "testimonials": "Testimonials",
+          "contact": "Contact",
+          "contactUs": "Contact Us",
+          "location": "Cali, Colombia",
+          "instagram": "Instagram",
+          "whatsapp": "WhatsApp",
+          "facebook": "Facebook",
+          "allRightsReserved": "All rights reserved"
+        }
+      
+      
+      
+      
+
+}

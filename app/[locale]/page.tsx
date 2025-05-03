@@ -1,10 +1,4 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Phone, Mail, MapPin, ChevronRight, CheckCircle, MessageSquare } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+
 import HeroSection from "@/components/sections/HeroSection"
 import AboutSection from "@/components/sections/AboutSection"
 import ServicesSection from "@/components/sections/ServicesSection"
@@ -22,7 +16,6 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <LawyerSection/>
-
         <AboutSection />
         <ServicesSection />
         <WhyChooseMeSection />

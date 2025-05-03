@@ -1,0 +1,168 @@
+{
+
+    
+        "nav": {
+          "home": "Inicio",
+          "about": "Acerca de mí",
+          "services": "Servicios",
+          "why": "¿Por qué Elegirme?",
+          "testimonials": "Testimonios",
+          "contact": "Contacto",
+          "language": "Idioma",
+          "advice": "Solicitar Asesoría",
+          "spanish": "Español",
+          "english": "Inglés"
+        },
+      
+    "LawyerSection":{
+        
+            "name": "Carlos Alberto Rodríguez Gutiérrez",
+            "title": "Abogado Penalista | Asesor Jurídico Integral",
+            "quote": "Defensa estratégica, asesoría ética y compromiso con la justicia.",
+            "description": "Más de 25 años de experiencia al servicio de la justicia y la defensa de los derechos ciudadanos. Brindo representación legal y asesoría en procesos penales, civiles, laborales, administrativos y corporativos, respaldado por un equipo interdisciplinario de alto nivel.",
+            "cta": "Agenda tu cita hoy mismo para consultas."
+          
+    },
+
+    "AboutSection":{
+        
+            "title": "Acerca de mí",
+            "backgroundAlt": "Fondo de la sección Sobre mí",
+            "imageAlt": "Carlos Alberto Rodríguez en su oficina",
+            "paragraph1": "Soy abogado con una trayectoria de más de dos décadas en el ejercicio del Derecho Penal colombiano. Mi enfoque combina la ética profesional, la preparación técnica y una estrategia legal adaptada a cada caso.",
+            "paragraph2": "Trabajo en conjunto con un equipo multidisciplinario de abogados y peritos forenses en distintas áreas, lo que me permite ofrecer soluciones jurídicas integrales, confiables y de alto nivel, tanto a personas naturales como jurídicas."  
+    },
+    
+    "ServicesSection":{
+
+            "title": "Servicios",
+            "subtitle": "Áreas de práctica legal",
+            "cta": "Solicita una consulta",
+
+            "criminal": {
+                "title": "Derecho Penal",
+                "item1": "Defensa técnica y estratégica en procesos penales",
+                "item2": "Representación en audiencias públicas y todas las etapas procesales",
+                "item3": "Intervención como acusador privado conforme a la Ley Procesal Penal Colombiana"
+            },
+            "investigation": {
+                "title": "Investigación Privada y Criminalística",
+                "item1": "Investigación privada especializada aplicada al ámbito penal y corporativo",
+                "item2": "Coordinación con peritos forenses (informática, contaduría, psicología, balística, grafología)",
+                "item3": "Análisis técnico y probatorio orientado al fortalecimiento de la defensa o la acusación"
+            },
+            "assetForfeiture": {
+                "title": "Extinción de Dominio",
+                "item1": "Asesoría y representación en procesos de extinción de dominio",
+                "item2": "Defensa de bienes afectados por medidas cautelares o decisiones judiciales",
+                "item3": "Análisis patrimonial y estrategia procesal para la recuperación de activos"
+            },
+            "corporate": {
+                "title": "Asesoría Corporativa y Comercial",
+                "item1": "Constitución, reorganización y formalización de empresas",
+                "item2": "Redacción, análisis y negociación de contratos",
+                "item3": "Gestión preventiva de riesgos legales y cumplimiento normativo"
+            },
+            "ip": {
+                "title": "Propiedad Intelectual",
+                "item1": "Registro de marcas, patentes y derechos de autor",
+                "item2": "Asesoría legal para la protección de activos intangibles y el desarrollo creativo"
+            },
+            "labor": {
+                "title": "Derecho Laboral",
+                "item1": "Asesoría integral en contratación, terminación y solución de conflictos laborales",
+                "item2": "Representación ante el Ministerio del Trabajo y en procesos judiciales laborales"
+            },
+            "civil": {
+                "title": "Derecho Civil y Administrativo",
+                "item1": "Representación en procesos por responsabilidad contractual y extracontractual",
+                "item2": "Demandas contra el Estado por acciones u omisiones administrativas",
+                "item3": "Acciones de tutela y defensa de derechos fundamentales"
+            }
+
+    },
+    "WhyChooseMeSection":{
+        "title": "¿Por qué Elegirme?",
+        "backgroundAlt": "Fondo Por Qué Elegirme",
+        "card1": {
+          "title": "Experiencia",
+          "description": "Más de 25 años de experiencia en litigios y asesoría legal"
+        },
+        "card2": {
+          "title": "Equipo Interdisciplinario",
+          "description": "Trabajo con especialistas y peritos forenses en diversas áreas"
+        },
+        "card3": {
+          "title": "Atención Personalizada",
+          "description": "Estrategia adaptada a las necesidades específicas de cada cliente"
+        },
+        "card4": {
+          "title": "Valores",
+          "description": "Ética, compromiso y resultados en cada caso que asumo"
+        }
+      }
+      ,
+    "TestimonialsSection":{
+        "title": "Testimonios",
+        "testimony1": {
+          "quote": "El Dr. Rodríguez llevó mi caso con profesionalismo y humanidad. Gracias a su gestión, obtuvimos justicia.",
+          "initials": "LM",
+          "name": "Laura M.",
+          "role": "Cliente penal"
+        },
+        "testimony2": {
+          "quote": "Excelente abogado, comprometido y con gran conocimiento. Lo recomiendo sin dudar.",
+          "initials": "CT",
+          "name": "Carlos T.",
+          "role": "Cliente corporativo"
+        }
+      },
+      "ContactSection":{
+        "title": "Contáctame",
+        "backgroundAlt": "Fondo de contacto",
+        "emailTitle": "Correo Electrónico",
+        "locationTitle": "Ubicación",
+        "formTitle": "Formulario de contacto rápido",
+        "fields": {
+          "name": "Nombre",
+          "phone": "Teléfono",
+          "email": "Correo electrónico",
+          "subject": "Asunto",
+          "message": "Mensaje"
+        },
+        "placeholders": {
+          "name": "Tu nombre",
+          "phone": "Tu teléfono",
+          "email": "Tu correo electrónico",
+          "subject": "Asunto de tu consulta",
+          "message": "Describe brevemente tu caso"
+        },
+        "submit": "Enviar mensaje",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado correctamente!",
+        "error": {
+          "general": "Error al enviar el mensaje.",
+          "exception": "Ocurrió un error al enviar el mensaje."
+        }
+      },
+      "Footer":{
+        "profession": "Abogado Penalista | Asesor Jurídico Integral",
+        "motto": "\"Defensa estratégica, asesoría ética y compromiso con la justicia.\"",
+        "quickLinks": "Enlaces rápidos",
+        "home": "Inicio",
+        "aboutMe": "Sobre Mí",
+        "services": "Servicios",
+        "whyChooseMe": "¿Por qué Elegirme?",
+        "testimonials": "Testimonios",
+        "contact": "Contacto",
+        "contactUs": "Contacto",
+        "location": "Cali, Colombia",
+        "instagram": "Instagram",
+        "whatsapp": "WhatsApp",
+        "facebook": "Facebook",
+        "allRightsReserved": "Todos los derechos reservados"
+      }
+
+      
+
+}
