@@ -15,7 +15,7 @@ export default function TestimonialsSection() {
           <Card className="transition-all hover:shadow-lg border-[#9A9A9C] hover:border-[#1D71B8]">
             <CardContent className="p-6">
               <div className="flex flex-col h-full">
-                <div className="text-4xl mb-4 text-[#1D71B8]">"</div>
+                <div className="text-4xl mb-4 text-[#1D71B8]">&quot;</div>
                 <p className="text-[#9A9A9C] mb-6 flex-grow">{t("testimony1.quote")}</p>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center justify-center h-12 w-12 rounded-full border border-[#1D71B8] bg-[#f0f7ff] text-[#1D71B8] font-medium">
@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
           <Card className="transition-all hover:shadow-lg border-[#9A9A9C] hover:border-[#1D71B8]">
             <CardContent className="p-6">
               <div className="flex flex-col h-full">
-                <div className="text-4xl mb-4 text-[#1D71B8]">"</div>
+                <div className="text-4xl mb-4 text-[#1D71B8]">&quot;</div>
                 <p className="text-[#9A9A9C] mb-6 flex-grow">{t("testimony2.quote")}</p>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center justify-center h-12 w-12 rounded-full border border-[#1D71B8] bg-[#f0f7ff] text-[#1D71B8] font-medium">

@@ -1,7 +1,6 @@
 "use client";
 import { Mail, MapPin, MessageSquare, Instagram, Facebook } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl"; // Import the hook for translations

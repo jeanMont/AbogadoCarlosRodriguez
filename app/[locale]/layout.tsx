@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Open_Sans } from "next/font/google";
+import { Inter} from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -11,7 +11,7 @@ import Footer from "@/components/custom/footer";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const open_sans = Open_Sans({ subsets: ["latin", "latin-ext"], display: "swap" });
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,15 +25,10 @@ export default async function RootLayout(
     params: Promise<{ locale: string }>;
   }
 ) {
-  const params = await props.params;
+  const { children } = props;
+  const { locale } = await props.params;
 
-  const {
-    children
-  } = props;
-
-  const { locale } = params;
-
-  if (!hasLocale(routing.locales, locale as any)) {
+  if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
@@ -41,7 +36,6 @@ export default async function RootLayout(
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <meta charSet="UTF-8" />
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
