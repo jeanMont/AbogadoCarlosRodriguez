@@ -11,13 +11,13 @@ import Footer from "@/components/custom/footer";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 
-import Script from "next/script"; // 👈 Agregado
+import Script from "next/script"; // ✅ Importación de Script
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Carlos Alberto Rodriguez",
-  description: "Aplicación web para Abogado Carlos alberto Rodriguez",
+  description: "Aplicación web para Abogado Carlos Alberto Rodriguez",
 };
 
 export default async function RootLayout(
@@ -37,24 +37,33 @@ export default async function RootLayout(
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <Script>
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFMZEVD87C"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-WFMZEVD87C');
-            `,
-          }}
-        />
-      </Script>
+      {/* ✅ Google Analytics scripts */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-WFMZEVD87C"
+        strategy="afterInteractive"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WFMZEVD87C');
+          `,
+        }}
+      />
+
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
             {children}
           </ThemeProvider>
           <Footer />
