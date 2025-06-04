@@ -11,7 +11,7 @@ import Footer from "@/components/custom/footer";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
 
-import Head from "next/head"; // 👈 Agregado
+import Script from "next/script"; // 👈 Agregado
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +37,7 @@ export default async function RootLayout(
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <Head>
+      <Script>
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFMZEVD87C"></script>
         <script
@@ -50,7 +50,7 @@ export default async function RootLayout(
             `,
           }}
         />
-      </Head>
+      </Script>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
